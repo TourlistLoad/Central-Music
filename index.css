@@ -17,10 +17,65 @@
 .central-intro {
   background-image: url("./assets/image/Rectangle\ 79\ 1440px.png");
   background-size: cover;
-  width: 100%;
+  width: auto;
   height: 808px;
   color: white;
   position: relative;
+}
+
+.central-intro .central-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  /* height: 280px; */
+  height: auto;
+  background-image: url("./assets/image/nen.jpg");
+  left: 6%;
+  right: 6%;
+  /* width: 100%; */
+  bottom: -17%;
+  border-radius: 10px;
+}
+
+.central-intro .central-banner .central-banner-ads {
+  padding: 32px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.central-intro .central-banner .central-banner-ads .central-banner-header {
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  align-items: center;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.central-intro .central-banner .central-banner-ads .central-banner-sale {
+  max-height: 72px;
+  max-width: 43%;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.central-intro .central-banner .central-banner-ads button {
+  padding: 8px 16px;
+  width: auto;
+  max-height: 32px;
+  background-color: #ff753a;
+  border-radius: 32px;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
 }
 
 .central-intro .central-nav {
@@ -69,55 +124,7 @@
   font-weight: 700;
 }
 
-.central-intro .central-banner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  width: 87%;
-  height: 280px;
-  background-image: url("./assets/image/nen.jpg");
-  left: 6%;
-  bottom: -17%;
-  border-radius: 10px;
-}
 
-.central-intro .central-banner .central-banner-ads {
-  padding: 32px;
-  width: 47%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.central-intro .central-banner .central-banner-ads .central-banner-header {
-  font-size: 46px;
-  font-style: normal;
-  font-weight: 700;
-  align-items: center;
-  margin-bottom: 5px;
-  text-align: center;
-}
-
-.central-intro .central-banner .central-banner-ads .central-banner-sale {
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 600;
-  text-align: center;
-  margin-bottom: 16px;
-}
-
-.central-intro .central-banner .central-banner-ads button {
-  padding: 8px 16px;
-  width: 25%;
-  background-color: #ff753a;
-  border-radius: 32px;
-  border: none;
-  color: white;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 600;
-}
 
 /* CSS New Products */
 
