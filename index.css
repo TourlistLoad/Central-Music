@@ -88,6 +88,12 @@
 .central-intro .central-nav .central-nav-left {
   display: flex;
   align-items: center;
+  /* max-width: 40%; */
+}
+
+.central-intro .central-nav .central-nav-left img {
+  max-width: 27%;
+  height: auto;
 }
 
 .central-intro .central-nav .central-nav-left ul {
@@ -96,9 +102,10 @@
 }
 
 .central-intro .central-nav .central-nav-left ul li {
-  margin-left: 24px;
+  margin-left: 2%;
   font-size: 18px;
   padding: 16px;
+  /* max-width: fit-content; */
 }
 
 .central-intro .central-nav .central-nav-right i {
@@ -237,7 +244,7 @@
   background-color: #fff;
   border-radius: 20px;
   border: 1px solid #eaeaea;
-  width: 35%;
+  width: 120px;
   margin-top: 20px;
 }
 
@@ -377,7 +384,7 @@
   background-color: #fff;
   border-radius: 20px;
   border: 1px solid #eaeaea;
-  width: 35%;
+  width: 120px;
   margin-top: 20px;
 }
 

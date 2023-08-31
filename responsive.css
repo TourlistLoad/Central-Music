@@ -1,9 +1,15 @@
-@media screen and (max-width: 976px) {
+@media screen and (max-width: 1024px) {
   /* CSS Responsive Intro */
 
   .central-intro {
     background-image: url("./assets/image/Rectangle\ 79\ 1024px.png");
   }
+
+  .central-intro .central-nav .central-nav-left img {
+    max-width: 100%;
+    height: auto;
+  }
+
   .central-intro .central-nav .central-nav-left ul {
     display: none;
   }
@@ -110,6 +116,22 @@
     display: none;
   }
 
+  /* CSS Responsive Footer */
+
+  .central-footer .central-footer-lower-nav div {
+    margin-right: 30px;
+  }
+
+  .central-footer .central-footer-logo {
+    max-width: 38%;
+  }
+
+  .central-footer .central-footer-logo img {
+    /* max-width: 40%; */
+    max-width: 100%;
+    height: auto;
+  }
+
 }
 
 @media screen and (max-width: 468px) {
@@ -188,13 +210,6 @@
     padding: 6px 8px 12px 6px;
   }
 
-  .central-newProducts
-  .central-product-cards
-  .central-product-cards-item
-  .central-product-cards-item-info
-  .chips {
-    width: 45%;
-  }
 
   /* CSS Responsive Popular Finds */
 
@@ -229,14 +244,6 @@
     padding: 6px 8px 12px 6px;
   }
 
-  .central-popularFinds
-.central-popularFinds-cards
-.central-popularFinds-cards-item
-.central-popularFinds-cards-item-info
-  .chips {
-    width: 45%;
-
-  }
 
 
   /* CSS Responsive Gear Heads */
