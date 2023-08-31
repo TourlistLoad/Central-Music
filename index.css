@@ -1,0 +1,587 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap");
+
+/* CSS Intro */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+.central-container {
+  /* width: 1440px; */
+  background-color: #fff;
+}
+.central-intro {
+  background-image: url("./assets/image/Rectangle\ 79\ 1440px.png");
+  background-size: cover;
+  width: 100%;
+  height: 808px;
+  color: white;
+  position: relative;
+}
+
+.central-intro .central-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 56px 7.5% 0px 6%;
+}
+
+.central-intro .central-nav .central-nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.central-intro .central-nav .central-nav-left ul {
+  display: flex;
+  list-style: none;
+}
+
+.central-intro .central-nav .central-nav-left ul li {
+  margin-left: 24px;
+  font-size: 18px;
+  padding: 16px;
+}
+
+.central-intro .central-nav .central-nav-right i {
+  padding: 8px;
+  font-size: 24px;
+}
+
+.central-intro .central-nav .central-nav-right i:first-child {
+  display: none;
+}
+
+.central-intro .central-intro-header {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  height: 557px;
+  padding-left: 6%;
+}
+
+.central-intro .central-intro-header p {
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.central-intro .central-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 87%;
+  height: 280px;
+  background-image: url("./assets/image/nen.jpg");
+  left: 6%;
+  bottom: -17%;
+  border-radius: 10px;
+}
+
+.central-intro .central-banner .central-banner-ads {
+  padding: 32px;
+  width: 47%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.central-intro .central-banner .central-banner-ads .central-banner-header {
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  align-items: center;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.central-intro .central-banner .central-banner-ads .central-banner-sale {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.central-intro .central-banner .central-banner-ads button {
+  padding: 8px 16px;
+  width: 25%;
+  background-color: #ff753a;
+  border-radius: 32px;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* CSS New Products */
+
+.central-newProducts {
+  padding: 224px 6% 6%;
+}
+
+.central-newProducts .central-product-header {
+  color: #505050;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.central-newProducts .central-newProducts-dash {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.central-newProducts .central-newProducts-dash div {
+  width: 6%;
+  border-top: 3px solid #ab0433;
+}
+
+.central-newProducts .central-product-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 32px;
+}
+
+.central-newProducts
+  .central-product-cards
+  .central-product-cards-item:last-child {
+  display: none;
+}
+
+.central-newProducts
+  .central-product-cards
+  .central-product-cards-item
+  .central-product-cards-item-image {
+  background-position-y: 26px;
+  background-image: url("./assets/image/background-item.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 10px 10px 0px 0px;
+  /* box-shadow: 0px 1px 5px 2px #EAEAEA; */
+}
+
+.central-newProducts
+  .central-product-cards
+  .central-product-cards-item
+  .central-product-cards-item-image
+  img {
+  max-width: 100%;
+  height: auto;
+  padding: 6px 44px 12px 42px;
+}
+
+.central-newProducts
+  .central-product-cards
+  .central-product-cards-item
+  .central-product-cards-item-info {
+  width: 100%;
+  box-shadow: 0px 1px 5px 2px #eaeaea;
+  padding: 16px 24px 24px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.central-newProducts
+  .central-product-cards
+  .central-product-cards-item
+  .central-product-cards-item-info
+  .central-product-cards-item-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.central-newProducts
+  .central-product-cards
+  .central-product-cards-item
+  .central-product-cards-item-info
+  .central-product-cards-item-header {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.central-newProducts
+  .central-product-cards
+  .central-product-cards-item
+  .central-product-cards-item-info
+  .central-product-cards-item-description {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  color: #767676;
+  margin-top: 6px;
+}
+
+.central-newProducts
+  .central-product-cards
+  .central-product-cards-item
+  .central-product-cards-item-info
+  .chips {
+  display: flex;
+  padding: 2px 6px;
+  background-color: #fff;
+  border-radius: 20px;
+  border: 1px solid #eaeaea;
+  width: 35%;
+  margin-top: 20px;
+}
+
+.central-newProducts
+  .central-product-cards
+  .central-product-cards-item
+  .central-product-cards-item-info
+  .chips
+  .number {
+  font-weight: 600;
+  margin-right: 6px;
+}
+
+.central-newProducts
+  .central-product-cards
+  .central-product-cards-item
+  .central-product-cards-item-info
+  .chips
+  p {
+  font-size: 12px;
+}
+
+/* CSS Popular Finds */
+
+.central-popularFinds {
+  padding: 6%;
+  background-color: #ececec;
+}
+
+.central-popularFinds .central-popularFinds-header {
+  color: #505050;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+.central-popularFinds .central-popularFinds-dash {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.central-popularFinds .central-popularFinds-dash div {
+  width: 6%;
+  border-top: 3px solid #ab0433;
+}
+
+.central-popularFinds .central-popularFinds-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 32px;
+}
+
+.central-popularFinds
+  .central-popularFinds-cards
+  .central-popularFinds-cards-item {
+  background-color: #fff;
+  box-shadow: 0px 1px 5px 2px #eaeaea;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.central-popularFinds
+  .central-popularFinds-cards
+  .central-popularFinds-cards-item:last-child {
+  display: none;
+}
+
+.central-popularFinds
+  .central-popularFinds-cards
+  .central-popularFinds-cards-item
+  .central-popularFinds-cards-item-image {
+  background-position-y: 26px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* box-shadow: 0px 1px 5px 2px #EAEAEA; */
+}
+
+.central-popularFinds
+  .central-popularFinds-cards
+  .central-popularFinds-cards-item
+  .central-popularFinds-cards-item-image
+  img {
+  max-width: 100%;
+  height: auto;
+  padding: 6px 44px 12px 42px;
+  /* width: 100%; */
+}
+
+.central-popularFinds
+  .central-popularFinds-cards
+  .central-popularFinds-cards-item
+  .central-popularFinds-cards-item-info {
+  width: 100%;
+  padding: 16px 24px 24px;
+}
+
+.central-popularFinds
+  .central-popularFinds-cards
+  .central-popularFinds-cards-item
+  .central-popularFinds-cards-item-info
+  .central-popularFinds-cards-item-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.central-popularFinds
+  .central-popularFinds-cards
+  .central-popularFinds-cards-item
+  .central-popularFinds-cards-item-info
+  .central-popularFinds-cards-item-header {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.central-popularFinds
+  .central-popularFinds-cards
+  .central-popularFinds-cards-item
+  .central-popularFinds-cards-item-info
+  .central-popularFinds-cards-item-description {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  color: #767676;
+  margin-top: 6px;
+}
+
+.central-popularFinds
+  .central-popularFinds-cards
+  .central-popularFinds-cards-item
+  .central-popularFinds-cards-item-info
+  .chips {
+  display: flex;
+  padding: 2px 6px;
+  background-color: #fff;
+  border-radius: 20px;
+  border: 1px solid #eaeaea;
+  width: 35%;
+  margin-top: 20px;
+}
+
+.central-popularFinds
+  .central-popularFinds-cards
+  .central-popularFinds-cards-item
+  .central-popularFinds-cards-item-info
+  .chips
+  .number {
+  font-weight: 600;
+  margin-right: 6px;
+}
+
+.central-popularFinds
+  .central-popularFinds-cards
+  .central-popularFinds-cards-item
+  .central-popularFinds-cards-item-info
+  .chips
+  p {
+  font-size: 12px;
+}
+
+/* CSS Gear Heads */
+
+.central-gearHeads {
+  padding: 6%;
+}
+
+.central-gearHeads .central-gearHeads-header {
+  color: #505050;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+.central-gearHeads .central-gearHeads-dash {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.central-gearHeads .central-gearHeads-dash div {
+  width: 6%;
+  border-top: 3px solid #ab0433;
+}
+
+.central-gearHeads .central-gearHeads-cards .central-gearHeads-cards-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 32px;
+  margin-bottom: 48px;
+}
+
+.central-gearHeads
+  .central-gearHeads-cards
+  .central-gearHeads-cards-top
+  .central-gearHeads-cards-item
+  img {
+  width: 100%;
+  height: auto;
+}
+
+.artical-black {
+  background-color: #252525;
+  border-radius: 10px;
+}
+
+.artical-black .artical-black-info {
+  padding: 32px;
+}
+
+.artical-black .artical-black-info p:first-child {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.artical-black .artical-black-info p:last-child {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  color: #c4c4c4;
+}
+
+.artical-white {
+  background-color: #eaeaea;
+  border-radius: 10px;
+}
+
+.artical-white .artical-white-info {
+  padding: 32px;
+}
+
+.artical-white .artical-white-info p:first-child {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  color: #202020;
+  margin-bottom: 4px;
+}
+
+.artical-white .artical-white-info p:last-child {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  color: #767676;
+}
+
+.central-gearHeads .central-gearHeads-cards .central-gearHeads-cards-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 32px;
+}
+
+.central-gearHeads
+  .central-gearHeads-cards
+  .central-gearHeads-cards-bottom
+  .central-gearHeads-cards-item
+  img:nth-child(2) {
+  display: none;
+}
+.central-gearHeads
+  .central-gearHeads-cards
+  .central-gearHeads-cards-bottom
+  .central-gearHeads-cards-item
+  img {
+  width: 100%;
+  height: auto;
+}
+
+/* CSS Footer */
+
+.central-footer {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  background-color: #505050;
+  color: white;
+  padding: 69px 3.62% 86px 7%;
+}
+
+.central-footer .central-footer-lower-nav {
+  display: flex;
+}
+
+.central-footer .central-footer-lower-nav div {
+  margin-right: 48px;
+}
+
+.central-footer .central-footer-dash {
+  margin-bottom: 10px;
+}
+
+.central-footer .central-footer-dash div {
+  width: 70%;
+  border-top: 3px solid white;
+}
+
+.central-footer .central-footer-lower-nav p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 9px;
+}
+
+.central-footer .central-footer-lower-nav .central-footer-lower-nav-header {
+  font-weight: 700;
+}
+
+.central-footer .central-footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.central-footer .central-footer-logo img {
+  margin-bottom: 28px;
+  max-width: 270px;
+  height: auto;
+}
+
+.central-footer .central-footer-logo ul {
+  display: flex;
+}
+
+.central-footer .central-footer-logo ul li {
+  list-style: none;
+}
+
+.central-footer .central-footer-logo ul li i {
+  color: white;
+  margin-left: 12px;
+  font-size: 20px;
+}
+
+/* CSS Copyright Bar */
+
+.central-copyright-bar {
+  background-color: #3b3b3b;
+  padding: 8px 7%;
+}
+
+.central-copyright-bar p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12.8px;
+  font-style: normal;
+  font-weight: 400;
+  color: #ffffff;
+}
